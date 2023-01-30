@@ -1,92 +1,184 @@
 Package: ros-kinetic-depthai
-Version: 2.19.1-3xenial~20221129
+Version: 2.20.2-3xenial~20230201
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 29672
+Installed-Size: 29558
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.2), libstdc++6 (>= 6), libopencv-dev, libusb-1.0-0-dev, ros-kinetic-catkin
 Homepage: https://www.luxonis.com/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-kinetic-depthai/ros-kinetic-depthai_2.19.1-3xenial~20221129_amd64.deb
-Size: 12827202
-SHA256: b3fa263dd36574d481a959394773d8c8d58144230dce49b8d6dbd198877da0e5
-SHA1: ce8fad230a08ca1639b0d1114a24a120d26a8764
-MD5sum: ee48ea801eb9f23eb9b5c65476b5447e
+Filename: pool/main/r/ros-kinetic-depthai/ros-kinetic-depthai_2.20.2-3xenial~20230201_amd64.deb
+Size: 12569272
+SHA256: b5ec1d33f7e75df7dd7f91489ce3c8f4467756f30f564f9478408b8cdead1b09
+SHA1: cab09c5bf481b5f90e1cbc65547630342f4f7aef
+MD5sum: feda169440dc6dfaaf16d43a99504242
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-kinetic-depthai
+Version: 2.20.1-3xenial~20230130
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 29542
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.2), libstdc++6 (>= 6), libopencv-dev, libusb-1.0-0-dev, ros-kinetic-catkin
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kinetic-depthai/ros-kinetic-depthai_2.20.1-3xenial~20230130_amd64.deb
+Size: 12547684
+SHA256: 39e3bb01babe53095a468a61147a911277b00536c88c0e636a9e728a582f47f1
+SHA1: 1ebbfbf2aa13f79b2a7c479a7b53881142139ac1
+MD5sum: a463e0971bf73bd442501ea1ff9256fb
 Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
 
 Package: ros-kinetic-depthai-bridge
-Version: 2.5.3-3xenial~20221129
+Version: 2.6.2-3xenial~20230207
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 67831
+Installed-Size: 67844
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), ros-kinetic-opencv3, libboost-dev, libopencv-dev, ros-kinetic-camera-info-manager, ros-kinetic-cv-bridge, ros-kinetic-depthai, ros-kinetic-depthai-ros-msgs, ros-kinetic-image-transport, ros-kinetic-robot-state-publisher, ros-kinetic-ros-environment, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-stereo-msgs, ros-kinetic-vision-msgs, ros-kinetic-xacro
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-kinetic-depthai-bridge/ros-kinetic-depthai-bridge_2.5.3-3xenial~20221129_amd64.deb
-Size: 11384586
-SHA256: 7c557f429d0db6f4818a3ba9a2dcf3c18b8836c8c3d872b105850c0270cc54f1
-SHA1: 9be14c5dda0e3fea598e55872dfd8c96da64a157
-MD5sum: bd4044921d2f541c35d783cafc5d105f
+Filename: pool/main/r/ros-kinetic-depthai-bridge/ros-kinetic-depthai-bridge_2.6.2-3xenial~20230207_amd64.deb
+Size: 11360650
+SHA256: a3e2beaba011fc2283b26a5296c44f94a4356a33d2c52049f19c514c50d3342c
+SHA1: 689f97905306f987fddff10223cc5fccf3a241c0
+MD5sum: df51f0941fd952d46df3f337a9b466a9
+Description: The depthai_bridge package
+
+Package: ros-kinetic-depthai-bridge
+Version: 2.6.1-3xenial~20230201
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67840
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), ros-kinetic-opencv3, libboost-dev, libopencv-dev, ros-kinetic-camera-info-manager, ros-kinetic-cv-bridge, ros-kinetic-depthai, ros-kinetic-depthai-ros-msgs, ros-kinetic-image-transport, ros-kinetic-robot-state-publisher, ros-kinetic-ros-environment, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-stereo-msgs, ros-kinetic-vision-msgs, ros-kinetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kinetic-depthai-bridge/ros-kinetic-depthai-bridge_2.6.1-3xenial~20230201_amd64.deb
+Size: 11339666
+SHA256: f9e91e4b93a0dc97cfac724d45718107aef613baf1790e7da3da3a8605043d89
+SHA1: 9d51899b25d6960a109a3c531b672a5632a41fec
+MD5sum: ee529a2684e8577a93f153ac6d5474a3
 Description: The depthai_bridge package
 
 Package: ros-kinetic-depthai-examples
-Version: 2.5.3-3xenial~20221129
+Version: 2.6.2-3xenial~20230207
 Architecture: amd64
 Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 27236
+Installed-Size: 31919
 Depends: libboost-system1.58.0, libc6 (>= 2.14), libconsole-bridge0.2v5, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), ros-kinetic-opencv3, libopencv-dev, ros-kinetic-camera-info-manager, ros-kinetic-cv-bridge, ros-kinetic-depth-image-proc, ros-kinetic-depthai, ros-kinetic-depthai-bridge, ros-kinetic-depthai-ros-msgs, ros-kinetic-foxglove-msgs, ros-kinetic-image-transport, ros-kinetic-message-filters, ros-kinetic-nodelet, ros-kinetic-robot-state-publisher, ros-kinetic-ros-environment, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-stereo-msgs, ros-kinetic-vision-msgs, ros-kinetic-xacro
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-kinetic-depthai-examples/ros-kinetic-depthai-examples_2.5.3-3xenial~20221129_amd64.deb
-Size: 21588768
-SHA256: 34531574a952801928d3522078e1281eaa94bd9f3349bef987437ee25340ce16
-SHA1: c96c183dfc9b3362d22307c9c0736ec106d79cf0
-MD5sum: c19b1256537428c5df8af259f9119cff
+Filename: pool/main/r/ros-kinetic-depthai-examples/ros-kinetic-depthai-examples_2.6.2-3xenial~20230207_amd64.deb
+Size: 25361618
+SHA256: 9091afae50f1cb8a8ee500a245c1dad58cd135daea739ad4c94f5b52a16e9f5a
+SHA1: 5a75d7e465b02875baae47c50921ea95e324b3d7
+MD5sum: d799751c9a5a493b38c36884b9266175
+Description: The depthai_examples package
+
+Package: ros-kinetic-depthai-examples
+Version: 2.6.1-3xenial~20230201
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 31919
+Depends: libboost-system1.58.0, libc6 (>= 2.14), libconsole-bridge0.2v5, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), ros-kinetic-opencv3, libopencv-dev, ros-kinetic-camera-info-manager, ros-kinetic-cv-bridge, ros-kinetic-depth-image-proc, ros-kinetic-depthai, ros-kinetic-depthai-bridge, ros-kinetic-depthai-ros-msgs, ros-kinetic-foxglove-msgs, ros-kinetic-image-transport, ros-kinetic-message-filters, ros-kinetic-nodelet, ros-kinetic-robot-state-publisher, ros-kinetic-ros-environment, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-stereo-msgs, ros-kinetic-vision-msgs, ros-kinetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kinetic-depthai-examples/ros-kinetic-depthai-examples_2.6.1-3xenial~20230201_amd64.deb
+Size: 25352588
+SHA256: 4f0037a7412fd71a1d5d4ef20d7a472212f7c63fc9600752efbb1d436345f5ad
+SHA1: 7c7a0ff36384e6a3e33665e3bc5cb6aded085b7e
+MD5sum: 0bb0865ba4b572a1fee40065e89483dd
 Description: The depthai_examples package
 
 Package: ros-kinetic-depthai-ros
-Version: 2.5.3-3xenial~20221129
+Version: 2.6.1-3xenial~20230201
 Architecture: amd64
 Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 14
-Depends: ros-kinetic-depthai, ros-kinetic-depthai-bridge, ros-kinetic-depthai-examples, ros-kinetic-depthai-ros-msgs
+Installed-Size: 20
+Depends: ros-kinetic-depthai, ros-kinetic-depthai-bridge, ros-kinetic-depthai-examples, ros-kinetic-depthai-ros-driver, ros-kinetic-depthai-ros-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-kinetic-depthai-ros/ros-kinetic-depthai-ros_2.5.3-3xenial~20221129_amd64.deb
-Size: 1916
-SHA256: 5710fa2803c4b23728fd87aec6765952f9ee7bebacd11e93334f420bd49f961e
-SHA1: bddeae75b9f5bfa90fe9a97bd328e2bd16feef8c
-MD5sum: a3d38d9bf8af9c5f1c45b6084eb3ade5
+Filename: pool/main/r/ros-kinetic-depthai-ros/ros-kinetic-depthai-ros_2.6.1-3xenial~20230201_amd64.deb
+Size: 2320
+SHA256: e1df61fde8f8cdc59d677c0828b945a6559329d31a1488c1f22971216fcf49c9
+SHA1: f4290250f0703e74fd40d9cc2c738de33cf68732
+MD5sum: 8399397be1a916f84ac4985a31093667
+Description: The depthai-ros package
+
+Package: ros-kinetic-depthai-ros
+Version: 2.6.1-3xenial~20230131
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 20
+Depends: ros-kinetic-depthai, ros-kinetic-depthai-bridge, ros-kinetic-depthai-examples, ros-kinetic-depthai-ros-driver, ros-kinetic-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kinetic-depthai-ros/ros-kinetic-depthai-ros_2.6.1-3xenial~20230131_amd64.deb
+Size: 2328
+SHA256: c9956f518b40f853965c599563e7d6108aaff24845ef4b9c17274f93f620be04
+SHA1: 7bb556831f5ae3a21b1245f78d154ca26c35021e
+MD5sum: 4b313b7ac48bbcc7d45d1ad8be653e3b
 Description: The depthai-ros package
 
 Package: ros-kinetic-depthai-ros-msgs
-Version: 2.5.3-3xenial~20221129
+Version: 2.6.2-3xenial~20230207
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 483
+Installed-Size: 482
 Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-vision-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-kinetic-depthai-ros-msgs/ros-kinetic-depthai-ros-msgs_2.5.3-3xenial~20221129_amd64.deb
-Size: 38780
-SHA256: 69c7ae62f371d4017dc66a60bb3d4564036cad72d9590f319779ded7abadb5f4
-SHA1: c0e38599bf854cc021e35c596aaa902bb5782c4f
-MD5sum: 133a8658278b5bfe2dd80b52feb3b6d9
+Filename: pool/main/r/ros-kinetic-depthai-ros-msgs/ros-kinetic-depthai-ros-msgs_2.6.2-3xenial~20230207_amd64.deb
+Size: 38972
+SHA256: d04487f49e2db727f35cc54d8005942f58982b6f4b789ec73d7c9679a834945c
+SHA1: 770a17047b28c1c602415327fb604f2054c4d91b
+MD5sum: e7b803fb36a927b5be13e4d44fc4470a
+Description: Package to keep interface independent of the driver
+
+Package: ros-kinetic-depthai-ros-msgs
+Version: 2.6.1-3xenial~20230201
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 482
+Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kinetic-depthai-ros-msgs/ros-kinetic-depthai-ros-msgs_2.6.1-3xenial~20230201_amd64.deb
+Size: 38974
+SHA256: 189d5f9fedb332cdece624f05057e5fdc995c46ded916f2d3385478f53c9c700
+SHA1: 6f4446772d36df289f270edd57f518cbdcde8eac
+MD5sum: 338ebc67c72c2f139514b669d9153602
 Description: Package to keep interface independent of the driver
 
 Package: ros-kinetic-foxglove-msgs
-Version: 2.0.0-3xenial~20220923
+Version: 2.1.1-3xenial~20230201
 Architecture: amd64
 Maintainer: Foxglove <ros-tooling@foxglove.dev>
-Installed-Size: 3897
+Installed-Size: 3902
 Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-visualization-msgs
 Homepage: https://foxglove.dev/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-kinetic-foxglove-msgs/ros-kinetic-foxglove-msgs_2.0.0-3xenial~20220923_amd64.deb
-Size: 164192
-SHA256: d9e7a16ed4b39d4c541c51d4e2cf3786a64a9372b1fb12157a743f200d085cff
-SHA1: 84718cd672424927e984d9b7523a7da9fb9749c9
-MD5sum: 58089b889dbb7ce56982cd3677126ff0
+Filename: pool/main/r/ros-kinetic-foxglove-msgs/ros-kinetic-foxglove-msgs_2.1.1-3xenial~20230201_amd64.deb
+Size: 164940
+SHA256: cfdc7539722584475d1b365b17e0fb174a3b884a6c25e952601dd68413d1090e
+SHA1: ff68fe43de449935394277eab37d6b0221d2b61a
+MD5sum: f4e3aadb84cc5b78cf06e6770fd4d826
+Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
+
+Package: ros-kinetic-foxglove-msgs
+Version: 2.1.1-3xenial~20230130
+Architecture: amd64
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 3902
+Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-visualization-msgs
+Homepage: https://foxglove.dev/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kinetic-foxglove-msgs/ros-kinetic-foxglove-msgs_2.1.1-3xenial~20230130_amd64.deb
+Size: 164980
+SHA256: 8ed2e449a0ca1f1f906e448cdb56007df54c5758c18d840ef3e68d4ed8ec1755
+SHA1: 12557a3b4b79edc7ebd5b4a7a216180613cb2bb7
+MD5sum: b0a04ba40001c892fdc1c8cc77163e5d
 Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
 

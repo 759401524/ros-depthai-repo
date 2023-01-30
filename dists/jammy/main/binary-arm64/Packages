@@ -1,92 +1,214 @@
 Package: ros-humble-depthai
-Version: 2.19.1-3jammy~20221129
+Version: 2.20.2-3jammy~20230201
 Architecture: arm64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 19801
+Installed-Size: 19667
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.5), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 12), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev
 Homepage: https://www.luxonis.com/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-depthai/ros-humble-depthai_2.19.1-3jammy~20221129_arm64.deb
-Size: 10537634
-SHA256: beef486d05195115f870a97e01ce5985760ed883f2f4642bcf1be4a6fa3f7208
-SHA1: 35f27f2395f5f2c180aba0e219952830327a56d3
-MD5sum: 89a2f905c4862368bab9c63c4d800381
+Filename: pool/main/r/ros-humble-depthai/ros-humble-depthai_2.20.2-3jammy~20230201_arm64.deb
+Size: 10075748
+SHA256: 5a79e92bff1f283c65dd8e881ff1a1368ca5fcc93d4286aa64a2726d801afe96
+SHA1: 7b432a17c486e17077562da51e40d6a3dccb4e68
+MD5sum: 0b876cc2a0bec1e678e571fda8ab25ca
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-humble-depthai
+Version: 2.20.1-3jammy~20230130
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 19655
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.5), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 12), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai/ros-humble-depthai_2.20.1-3jammy~20230130_arm64.deb
+Size: 10060608
+SHA256: c5301823efbc54e1d197be884f6094aa69fbb0759e3b1f6490be8c61d1fdba7a
+SHA1: 812c8a70f0b2df3fa6e2bac7d1413e79df5e375e
+MD5sum: 2be8e69e2d918fa477f7fd6fce4d373e
 Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
 
 Package: ros-humble-depthai-bridge
-Version: 2.5.3-3jammy~20221129
+Version: 2.6.2-3jammy~20230207
 Architecture: arm64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 67787
-Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libboost-dev, libopencv-dev, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-depthai, ros-humble-depthai-ros-msgs, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-ros-environment, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-vision-msgs, ros-humble-xacro
+Installed-Size: 67791
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libboost-dev, libopencv-dev, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-depthai, ros-humble-depthai-ros-msgs, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-ros-environment, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-vision-msgs, ros-humble-xacro
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-depthai-bridge/ros-humble-depthai-bridge_2.5.3-3jammy~20221129_arm64.deb
-Size: 13412092
-SHA256: 946226c0f5655f4dba5562dc38dcafbb734ab05d30d4a933c0959ff9540b9d11
-SHA1: 50aa2b99ce3eb08e4da1e04cf9c381ac1ed69c3a
-MD5sum: 8e6f9608855ba21aa5bd5411d70808fc
+Filename: pool/main/r/ros-humble-depthai-bridge/ros-humble-depthai-bridge_2.6.2-3jammy~20230207_arm64.deb
+Size: 10424328
+SHA256: fafe8e9ca92fea434614948e6af2e683300d94fc049d6bfe3923be80201dabf9
+SHA1: ffcbb34310e94f9c3b8d9d07f25a3637068cc776
+MD5sum: f94e140123ccb2d4b221018347fe4c4c
+Description: The depthai_bridge package
+
+Package: ros-humble-depthai-bridge
+Version: 2.6.1-3jammy~20230201
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67791
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libboost-dev, libopencv-dev, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-depthai, ros-humble-depthai-ros-msgs, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-ros-environment, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-vision-msgs, ros-humble-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai-bridge/ros-humble-depthai-bridge_2.6.1-3jammy~20230201_arm64.deb
+Size: 10460112
+SHA256: 3b439fa9772aa96bd71bad7826c5aab67b1aa5039cb9f4782fb3ac8746899291
+SHA1: 3dd5538247bd0b7a00e402fcd1a86c0b723e99f1
+MD5sum: 3353068c1999e8c1c0337e2a7d455fd7
 Description: The depthai_bridge package
 
 Package: ros-humble-depthai-examples
-Version: 2.5.3-3jammy~20221129
+Version: 2.6.2-3jammy~20230207
 Architecture: arm64
 Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 27412
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libopencv-dev, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-depth-image-proc, ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-depthai-ros-msgs, ros-humble-foxglove-msgs, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-ros-environment, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-vision-msgs, ros-humble-xacro
+Installed-Size: 32162
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libopencv-dev, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-depth-image-proc, ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-depthai-ros-msgs, ros-humble-foxglove-msgs, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-ros-environment, ros-humble-rviz-imu-plugin, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-vision-msgs, ros-humble-xacro
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-depthai-examples/ros-humble-depthai-examples_2.5.3-3jammy~20221129_arm64.deb
-Size: 22122656
-SHA256: bf8a21f9f037b54c01cc08c770447cb0f6790c653672fb4e9cd3e8b0519d83da
-SHA1: e1f46ae8b7e4ab57c8ae24d08235a60d488c8dbc
-MD5sum: 874994d818fb5d4ba9c9cb41f267237a
+Filename: pool/main/r/ros-humble-depthai-examples/ros-humble-depthai-examples_2.6.2-3jammy~20230207_arm64.deb
+Size: 25422632
+SHA256: 49edbd57c751beaacae58513d47973baa1c2c4ba1f83d08d629139227ec50250
+SHA1: 81e6c13c71d99d34e5929b6ac75c8358079f2bc0
+MD5sum: 810603cde0ad137558feea9f61d1e214
+Description: The depthai_examples package
+
+Package: ros-humble-depthai-examples
+Version: 2.6.1-3jammy~20230201
+Architecture: arm64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 32162
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libopencv-dev, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-depth-image-proc, ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-depthai-ros-msgs, ros-humble-foxglove-msgs, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-ros-environment, ros-humble-rviz-imu-plugin, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-vision-msgs, ros-humble-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai-examples/ros-humble-depthai-examples_2.6.1-3jammy~20230201_arm64.deb
+Size: 25396000
+SHA256: db874d45c12556b31a41219c43fec3f47210d5c465feb51d9e4218eaa50f18ec
+SHA1: a1913e4fb50b7bb2d15534ffc74d9db44bd68e9b
+MD5sum: a22b957f9a4cb2829f87f999e3f53d55
 Description: The depthai_examples package
 
 Package: ros-humble-depthai-ros
-Version: 2.5.3-3jammy~20221129
+Version: 2.6.2-3jammy~20230207
 Architecture: arm64
 Maintainer: sachin <sachin@luxonis.com>
 Installed-Size: 41
-Depends: ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-depthai-examples, ros-humble-depthai-ros-msgs
+Depends: ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-depthai-examples, ros-humble-depthai-ros-driver, ros-humble-depthai-ros-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-depthai-ros/ros-humble-depthai-ros_2.5.3-3jammy~20221129_arm64.deb
-Size: 5076
-SHA256: 60e8303fd20ba01bcd15bdd081f1dde486be21c682b3ce5e4d59d7b2c0b158b5
-SHA1: f88f84809a144f6573e6b0fd4988247e7597a6cb
-MD5sum: 7930607c88c554d0c8efac6e6531dde1
+Filename: pool/main/r/ros-humble-depthai-ros/ros-humble-depthai-ros_2.6.2-3jammy~20230207_arm64.deb
+Size: 5056
+SHA256: 255186c98b8d3c11b98cb04537a7940a8cf75879e3d84d25a72a9057e09944bd
+SHA1: 978f5f8fb99d27d7845754219bd7e717ef48a5c0
+MD5sum: fac6b7e4ec01e5385df12f17922b6553
 Description: The depthai-ros package
 
+Package: ros-humble-depthai-ros
+Version: 2.6.1-3jammy~20230201
+Architecture: arm64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 41
+Depends: ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-depthai-examples, ros-humble-depthai-ros-driver, ros-humble-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai-ros/ros-humble-depthai-ros_2.6.1-3jammy~20230201_arm64.deb
+Size: 4988
+SHA256: 8a15e80160f8ff246130e1fba76dda61e0db245493b084d065683b2e14549e93
+SHA1: 5e0597ebe331344bd9fe8a63708a2811fb71a1c0
+MD5sum: 13dafc1d8e355968211ecca7bcac7c6c
+Description: The depthai-ros package
+
+Package: ros-humble-depthai-ros-driver
+Version: 2.6.2-3jammy~20230207
+Architecture: arm64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 811
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-humble-ament-cmake-auto, ros-humble-cv-bridge, ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-diagnostic-msgs, ros-humble-image-pipeline, ros-humble-image-transport, ros-humble-image-transport-plugins, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai-ros-driver/ros-humble-depthai-ros-driver_2.6.2-3jammy~20230207_arm64.deb
+Size: 181004
+SHA256: c01a9d850289a5ac6d252ce94ddcfdbd54b324bc87c53a9975d8919249852634
+SHA1: 73e8309172046e690560ffa0adb46b2c201a81d3
+MD5sum: 4d376f35590030636b1152506952aac8
+Description: Depthai ROS Monolithic node.
+
+Package: ros-humble-depthai-ros-driver
+Version: 2.6.1-3jammy~20230201
+Architecture: arm64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 811
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-humble-cv-bridge, ros-humble-depthai, ros-humble-depthai-bridge, ros-humble-diagnostic-msgs, ros-humble-image-pipeline, ros-humble-image-transport, ros-humble-image-transport-plugins, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai-ros-driver/ros-humble-depthai-ros-driver_2.6.1-3jammy~20230201_arm64.deb
+Size: 180916
+SHA256: e5271ba4afd9f49e1e24f38eeb477f13f993a233673109c0beb95b08c9455740
+SHA1: aa1a4bb2dc7f29ccda05222dc53ccf9e2abae4e9
+MD5sum: 8e4cb61a6994b6037a5fb2ba4fc62ade
+Description: Depthai ROS Monolithic node.
+
 Package: ros-humble-depthai-ros-msgs
-Version: 2.5.3-3jammy~20221129
+Version: 2.6.2-3jammy~20230207
 Architecture: arm64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 1280
+Installed-Size: 1279
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rosidl-default-generators, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-vision-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-depthai-ros-msgs/ros-humble-depthai-ros-msgs_2.5.3-3jammy~20221129_arm64.deb
-Size: 105944
-SHA256: 779ff2cb3a1b374455f797869cbab3396c9b95f161272aabe3922045f5dc161c
-SHA1: 8f2bf7893c3374ab2fd7dd7722884bd9b28ef051
-MD5sum: 64484550abda13ec2d7444421d1ebcd6
+Filename: pool/main/r/ros-humble-depthai-ros-msgs/ros-humble-depthai-ros-msgs_2.6.2-3jammy~20230207_arm64.deb
+Size: 98668
+SHA256: cd57d90fff6a15c81508c0f9188c307fc1efe9145bc5dbb53bcdec29b43d2ed5
+SHA1: aa6e0b8e35583a381dde89741dce73947609e555
+MD5sum: 004539a23469387b5803754468e7d7c6
+Description: Package to keep interface independent of the driver
+
+Package: ros-humble-depthai-ros-msgs
+Version: 2.6.1-3jammy~20230201
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1279
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rosidl-default-generators, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-depthai-ros-msgs/ros-humble-depthai-ros-msgs_2.6.1-3jammy~20230201_arm64.deb
+Size: 98572
+SHA256: 8117d7e1a6d7977b21466e74920f6809379bb7ca061c6562699f619c01c7c423
+SHA1: d7177d3fc3de5d211f7c3c1ce1d1e48f74f0464a
+MD5sum: dab3966943c3f2f28cfd268a0c2d640e
 Description: Package to keep interface independent of the driver
 
 Package: ros-humble-foxglove-msgs
-Version: 2.0.0-3jammy~20220923
+Version: 2.1.1-3jammy~20230201
 Architecture: arm64
 Maintainer: Foxglove <ros-tooling@foxglove.dev>
-Installed-Size: 7575
+Installed-Size: 7578
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-geometry-msgs, ros-humble-rosidl-default-runtime, ros-humble-visualization-msgs
 Homepage: https://foxglove.dev/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-foxglove-msgs/ros-humble-foxglove-msgs_2.0.0-3jammy~20220923_arm64.deb
-Size: 470298
-SHA256: 584f1f8c88a939cd54c424210254eb7b12ed1c264fcbc9f53e4df278e8c2330f
-SHA1: 6cc324472dac341677dbe6830b5168fc5880ed8b
-MD5sum: 6c30f18df1dedfe387a3ad0844291ea5
+Filename: pool/main/r/ros-humble-foxglove-msgs/ros-humble-foxglove-msgs_2.1.1-3jammy~20230201_arm64.deb
+Size: 436296
+SHA256: 44c3e5f1c4d817969c097bf7bf0c5f5e195aa39cbebfea679d89f5ec3c7a110d
+SHA1: 7ee463e13fb9734c655ebf91b79a4d0454bf1640
+MD5sum: c849ca31f5a0adb0216904985a433d9b
+Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
+
+Package: ros-humble-foxglove-msgs
+Version: 2.1.1-3jammy~20230130
+Architecture: arm64
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 7578
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-geometry-msgs, ros-humble-rosidl-default-runtime, ros-humble-visualization-msgs
+Homepage: https://foxglove.dev/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-foxglove-msgs/ros-humble-foxglove-msgs_2.1.1-3jammy~20230130_arm64.deb
+Size: 436328
+SHA256: ddec86dd1486ff581edeb0c6c45d879ff18a7bf4ae0cf149be559b8c0e24a536
+SHA1: 44ef1dff2feae81b7f743f0444dc2cc85a2e152d
+MD5sum: d82a59dcd8fcda98fa3dbf0bbe270aae
 Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
 
